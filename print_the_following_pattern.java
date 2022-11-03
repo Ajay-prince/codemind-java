@@ -6,10 +6,10 @@ class Prime{
         int n=sc.nextInt();
         int t=n;
         for(int i=0;i<t;i++){
-            for(int j=1;j<=n;j++){
-                System.out.print(j);
+            for(int j=n;j>=1;j--){
+                System.out.print(j+" ");
             }
-            n-=1;
+            
             System.out.print("
 ");
         }
