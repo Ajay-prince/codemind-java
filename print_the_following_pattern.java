@@ -5,11 +5,12 @@ class Prime{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int t=n;
+        int k=1;
         for(int i=0;i<t;i++){
-            for(int j=n;j>=1;j--){
-                System.out.print(j+" ");
+            for(int j=1;j<=k;j++){
+                System.out.print(j);
             }
-            
+            k+=1;
             System.out.print("
 ");
         }
